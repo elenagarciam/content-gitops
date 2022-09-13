@@ -2,7 +2,7 @@ name: Python application
 
 on:
   push:
-    paths:
+    pull_request:
     - 'python/*'
       
 jobs:
