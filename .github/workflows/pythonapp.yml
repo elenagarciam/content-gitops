@@ -25,4 +25,4 @@ jobs:
         cd ./python
         docker login --username=elenagarciamolina --password=${{ secrets.DOCKERPW }}
         docker image build -t elenagarciamolina/gitops:hellov1.0 .
-        docker push elenagarciamolina/gitops:hellov1.1
+        docker push elenagarciamolina/gitops:hellov1.0
